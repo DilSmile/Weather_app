@@ -1,0 +1,136 @@
+@import url("https://fonts.googleapis.com/css2?family=Lora:wght@400;500&display=swap");
+body,
+html {
+  margin: 0;
+  padding: 0;
+  height: 100%;
+}
+
+.background-image {
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background-size: cover;
+  background-position: center;
+  transition: background-image 1s ease;
+}
+h1 {
+  color: #ffd7d7;
+  font-weight: 700;
+}
+
+.card {
+  width: 90%;
+  max-width: 470px;
+  background: transparent;
+  color: #fff;
+  margin: 77px auto;
+  margin-bottom: 20px;
+  border-radius: 30px;
+  padding: 40px 35px;
+  text-align: center;
+}
+.search {
+  width: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding-top: 9px;
+}
+.search input {
+  border: 0;
+  outline: 0;
+  background: #e8f0fd;
+  color: #555;
+  padding: 5px 10px;
+  border-radius: 30px;
+  flex: 1;
+  margin-right: 16px;
+  font-size: 18px;
+}
+
+.weather-icon {
+  width: 170px;
+  margin-top: 20px;
+}
+
+.weather h1 {
+  font-size: 80px;
+  font-weight: 500;
+}
+.weather h1 {
+  font-size: 45px;
+  font-weight: 400;
+  margin-top: -10px;
+}
+
+.details {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 0 20px;
+  margin-top: 50px;
+}
+.column {
+  display: flex;
+  align-items: center;
+  text-align: left;
+}
+.column img {
+  width: 60px;
+  padding-right: 15px;
+}
+
+.humidity,
+.wind,
+.airpressure {
+  font-size: 20px;
+  margin-top: -6px;
+}
+
+.weather {
+  display: none;
+}
+
+.err {
+  text-align: left;
+  margin-left: 10px;
+  font-size: 14px;
+  margin-top: 10px;
+  display: none;
+}
+
+.err img {
+  width: 82%;
+}
+
+.err p {
+  color: #06283d;
+  font-size: 22px;
+  font-weight: 500;
+  margin-top: 12px;
+}
+
+.search button {
+  cursor: pointer;
+  width: 35px;
+  height: 36px;
+  color: #06283d;
+  background: #e8f0fd;
+  border-radius: 50%;
+  font-size: 22px;
+  transition: 0.4s ease;
+}
+
+.search button:hover {
+  color: #fff;
+  background: #06283d;
+}
+
+.search i {
+  position: absolute;
+  color: #06283d;
+  font-size: 28px;
+}

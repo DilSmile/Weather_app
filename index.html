@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <!-- CSS -->
+    <link rel="stylesheet" href="index.css" />
+    <title>Weather App</title>
+  </head>
+  <body class="background-image">
+    <div class="card">
+        <h1>Weather App</h1>
+        <!-- Search bar start -->
+        <div class="search">
+            <input id="search-result" type="text" placeholder="Enter your location"  name="city" required/>
+            <button class="fa-solid fa-magnifying-glass"></button>
+        </div>
+        <!-- Error -->
+        <div class="err">
+            <img src="https://thumbs.dreamstime.com/b/page-not-found-error-eps-46788676.jpg">
+            <p>Invalid city name</p>
+        </div>
+        <!-- Weather Section start -->
+        <div class="weather">
+            <img src="img/cloud.png" alt=" clouds" class="weather-icon" />
+            <h1 id="temp" class="temp"></h1>
+            <h2 class="city">Актау</h2>
+        <div class="details">
+            <div class="column">
+                <img src="img/humidity.png" alt="humidity" />
+                <div class="card-details">
+                    <p class="humidity">66%</p>
+                    <p>Humidity</p>
+                </div>
+            </div>
+            <div class="column">
+                <img src="img/barometer.png" alt="barometer" />
+                <div class="card-details">
+                    <p class="pressure">1013</p>
+                    <p>Air pressure</p>
+                </div>
+            </div>
+        </div>
+        </div>
+    </div>
+      <script src="index.js"></script>    
+      <script src="image_change.js"></script>
+    <script src="https://kit.fontawesome.com/7c8801c017.js" crossorigin="anonymous"></script>
+    <script src=
+"https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js">
+    </script>
+    </body>
+  </html>
+  </body>
+</html>
